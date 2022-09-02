@@ -1,0 +1,68 @@
+<Application x:Class="AndreyMatveewDZ01.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AndreyMatveewDZ01" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes" 
+             xmlns:dragablz="clr-namespace:Dragablz;assembly=Dragablz" 
+             StartupUri="View\WpfMailSender.xaml" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             d1p1:Ignorable="d" 
+             xmlns:d1p1="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:vm="clr-namespace:AndreyMatveewDZ01" 
+             xmlns:windowMessage="clr-namespace:AndreyMatveewDZ01.Model"
+             xmlns:Validation ="clr-namespace:AndreyMatveewDZ01.Model.Validation">
+  <Application.Resources>
+    <ResourceDictionary>
+      <ResourceDictionary.MergedDictionaries>
+           <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Dark.xaml">
+            </ResourceDictionary>
+           <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml">
+            </ResourceDictionary>
+           <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.Indigo.xaml">
+            </ResourceDictionary>
+           <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml">
+            </ResourceDictionary>
+           <ResourceDictionary Source="pack://application:,,,/Dragablz;component/Themes/materialdesign.xaml">
+            </ResourceDictionary>
+           <ResourceDictionary>
+              <!--
+                                include three hues from the primary palette (and the associated forecolours).
+                                Do not rename, keep in sequence; light to dark.
+                            -->
+              <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="{StaticResource Primary100}" />
+              <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="{StaticResource Primary100Foreground}" />
+              <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="{StaticResource Primary500}" />
+              <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="{StaticResource Primary500Foreground}" />
+              <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="{StaticResource Primary700}" />
+              <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="{StaticResource Primary700Foreground}" />
+            </ResourceDictionary>
+           <ResourceDictionary>
+              <!-- include your secondary pallette -->
+              <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/MaterialDesignColor.Indigo.xaml">
+                </ResourceDictionary>
+              </ResourceDictionary.MergedDictionaries>
+              <!-- include a single secondary accent color (and the associated forecolour) -->
+              <SolidColorBrush x:Key="SecondaryAccentBrush" Color="{StaticResource Primary500Foreground}" />
+              <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="{StaticResource Primary500Foreground}" />
+            </ResourceDictionary>
+           <ResourceDictionary>
+              <!-- tell Dragablz tab control to use the Material Design theme -->
+              <Style TargetType="{x:Type dragablz:TabablzControl}" BasedOn="{StaticResource MaterialDesignTabablzControlStyle}" />
+            </ResourceDictionary>
+           <ResourceDictionary>
+                        <vm:ViewModelLocator x:Key="Locator" d:IsDataSource="True" xmlns:vm="clr-namespace:AndreyMatveewDZ01.ViewModel" />
+                    </ResourceDictionary>
+           <ResourceDictionary>
+                    <Validation:PasswordValidation x:Key="PasswordValidation" d:IsDataSource="True"/>
+           </ResourceDictionary>
+           <ResourceDictionary>
+                    <Validation:LoginValidation x:Key="LoginValidation" d:IsDataSource="True"/>
+           </ResourceDictionary>
+           <ResourceDictionary>
+                    <Validation:EmailValidation x:Key="EmailValidation" d:IsDataSource="True"/>
+                </ResourceDictionary>
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </Application.Resources>
+</Application>

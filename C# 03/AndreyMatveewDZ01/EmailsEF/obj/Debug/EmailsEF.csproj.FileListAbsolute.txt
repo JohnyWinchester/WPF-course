@@ -1,0 +1,12 @@
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EmailsEF.dll.config
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EmailsEF.dll
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EmailsEF.pdb
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EntityFramework.dll
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EntityFramework.SqlServer.dll
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EntityFramework.xml
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\bin\Debug\EntityFramework.SqlServer.xml
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\obj\Debug\EmailsEF.csproj.AssemblyReference.cache
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\obj\Debug\EmailsEF.csproj.CoreCompileInputs.cache
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\obj\Debug\EmailsEF.csproj.CopyComplete
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\obj\Debug\EmailsEF.dll
+E:\GeekBrains\C# 03\AndreyMatveewDZ01\EmailsEF\obj\Debug\EmailsEF.pdb

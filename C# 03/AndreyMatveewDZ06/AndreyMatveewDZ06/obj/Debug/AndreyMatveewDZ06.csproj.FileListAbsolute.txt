@@ -1,0 +1,7 @@
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\obj\Debug\AndreyMatveewDZ06.csproj.AssemblyReference.cache
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\obj\Debug\AndreyMatveewDZ06.csproj.CoreCompileInputs.cache
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\bin\Debug\AndreyMatveewDZ06.exe.config
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\bin\Debug\AndreyMatveewDZ06.exe
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\bin\Debug\AndreyMatveewDZ06.pdb
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\obj\Debug\AndreyMatveewDZ06.exe
+E:\GeekBrains\C# 03\AndreyMatveewDZ06\AndreyMatveewDZ06\obj\Debug\AndreyMatveewDZ06.pdb
